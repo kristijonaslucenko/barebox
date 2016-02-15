@@ -70,5 +70,5 @@ am33xx-mlo-$(CONFIG_MACH_BEAGLEBONE) += barebox-am33xx-beaglebone-mlo.img
 ifdef CONFIG_OMAP_BUILD_IFT
 image-y += $(am33xx-mlo-y)
 else
-image-y += $(am33xx-barebox-y)
+image-y += $(am33xx-baraaebox-y)
 endif
