@@ -31,8 +31,8 @@ pblx-$(CONFIG_MACH_PHYTEC_SOM_AM335X) += start_am33xx_phytec_phycore_sram_128mb
 FILE_barebox-am33xx-phytec-phycore-mlo-128mb.img = start_am33xx_phytec_phycore_sram_128mb.pblx.mlo
 am33xx-mlo-$(CONFIG_MACH_PHYTEC_SOM_AM335X) += barebox-am33xx-phytec-phycore-mlo-128mb.img
 
-pblx-$(CONFIG_MACH_PHYTEC_SOM_AM335X) += start_am33xx_phytec_phycore_sram_512mb
-FILE_ccu-bootloader-ccu-eevo-mlo-512mb.img = start_am33xx_phytec_phycore_sram_512mb.pblx.mlo
+pblx-$(CONFIG_MACH_PHYTEC_SOM_AM335X) += start_ccu_bootloader_ccu_eevo_sram_512mb
+FILE_ccu-bootloader-ccu-eevo-mlo-512mb.img = start_ccu_bootloader_ccu_eevo_sram_512mb.pblx.mlo
 am33xx-mlo-$(CONFIG_MACH_PHYTEC_SOM_AM335X) += ccu-bootloader-ccu-eevo-mlo-512mb.img
 
 pblx-$(CONFIG_MACH_PHYTEC_SOM_AM335X) += start_am33xx_phytec_phycore_sram_2x512mb
