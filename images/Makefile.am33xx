@@ -72,3 +72,5 @@ image-y += $(am33xx-mlo-y)
 else
 image-y += $(am33xx-barebox-y)
 endif
+
+#ffff
