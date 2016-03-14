@@ -203,13 +203,4 @@ static inline bool region_overlap(unsigned long starta, unsigned long lena,
 	return 1;
 }
 
-#ifdef DEBUG
-#define pr_debug(fmt, arg...)   printf(fmt, ##arg)
-#else
-#define pr_debug(fmt, arg...)   do {} while(0)
-#endif
-
-#define debug(fmt, arg...)      pr_debug(fmt, ##arg)
-
-
 #endif	/* __COMMON_H_ */
