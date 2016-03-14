@@ -25,6 +25,8 @@
 #define DEBUG
 #endif
 
+#define DEBUG
+
 /**
  * @file
  * @brief Main entry into the C part of barebox
@@ -41,8 +43,6 @@
 #include <asm/sections.h>
 #include <uncompress.h>
 #include <globalvar.h>
-
-#define DEBUG
 
 extern initcall_t __barebox_initcalls_start[], __barebox_early_initcalls_end[],
 		  __barebox_initcalls_end[];
