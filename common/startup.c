@@ -1,3 +1,5 @@
+#define DEBUG
+
 /*
  * (C) Copyright 2002-2006
  * Wolfgang Denk, DENX Software Engineering, wd@denx.de.
@@ -24,8 +26,6 @@
 #ifdef CONFIG_DEBUG_INITCALLS
 #define DEBUG
 #endif
-
-#define DEBUG
 
 /**
  * @file
