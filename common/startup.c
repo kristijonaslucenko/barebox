@@ -23,11 +23,6 @@
  
 #define DEBUG
  
-
-#ifdef CONFIG_DEBUG_INITCALLS
-#define DEBUG
-#endif
-
 /**
  * @file
  * @brief Main entry into the C part of barebox
