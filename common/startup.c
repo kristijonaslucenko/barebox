@@ -20,6 +20,9 @@
  * GNU General Public License for more details.
  *
  */
+ 
+#define DEBUG
+ 
 
 #ifdef CONFIG_DEBUG_INITCALLS
 #define DEBUG
